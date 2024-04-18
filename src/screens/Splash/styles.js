@@ -1,8 +1,9 @@
 import { StyleSheet } from 'react-native';
 import colors from '../../constants/colors';
-import React from 'react';
+
 const styles = StyleSheet.create({
   background: {
+    backgroundColor: colors.base,
     width: '100%',
     height: '100%',
   },

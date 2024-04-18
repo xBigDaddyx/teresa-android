@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { StyleSheet } from 'react-native';
 import colors from '../../constants/colors';
 
@@ -12,6 +12,7 @@ const styles = StyleSheet.create({
     width: '80%',
     padding: 15,
     borderRadius: 10,
+    margin: 10,
   },
   text: {
     color: colors.text_secondary,
